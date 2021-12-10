@@ -8,8 +8,8 @@
      state: present
     when: ansible_os_family =="debian" 
 
-- name: i want to install webserver on redHat node
-  yum:
-    name: httpd
-    state: present
+  - name: i want to install webserver on redHat node
+    yum:
+      name: httpd
+      state: present
     when: ansible_os_family == "redHat"
