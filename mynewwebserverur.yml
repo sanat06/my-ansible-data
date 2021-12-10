@@ -13,3 +13,11 @@
       name: httpd
       state: present
     when: ansible_os_family == "redHat"
+
+  - name: i want to start the webserver on redHat node
+    service:
+      name: httpd
+      state: started
+      when: ansible_os_family =="redHat"
+
+     
