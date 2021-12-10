@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+   - name: i want install my webserver on ubuntu 16 nodes
+     apt: 
+      name: apache2
+      state: present
