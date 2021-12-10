@@ -12,3 +12,8 @@
     apt: 
       name: tree
       state: present
+
+  - name: i want to start the webserver
+    sevice: 
+       name: apache2 
+       state: started   
