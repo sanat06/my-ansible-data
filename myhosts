@@ -13,3 +13,7 @@
 [myununtuservers]
 172.31.8.133
 172.35.34.14
+
+[mywebserver:vars]
+mywebpackageonubuntu=apache2222222
+mywebpackageonredhat=httpd
