@@ -1,0 +1,15 @@
+---
+mystudent: 
+- name: sanu
+  phone: 3116461345
+  email: sanu@gmail.com
+
+  mystudent: 
+- name: sriku
+  phone: 6466164454
+  email: sriku@gmail.com
+
+  mystudent: 
+- name: ravi
+  phone: 13475
+  email: ravi@gmail.com
