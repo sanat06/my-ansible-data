@@ -16,6 +16,6 @@
 
   - name: install wget
     apt:
-      name: wget
-      state: presnet
+       name: wget
+       state: presnet
     tags: mywget
