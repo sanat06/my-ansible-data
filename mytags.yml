@@ -18,4 +18,4 @@
     apt:
       name: wget
       state: presnet
-    mytags: mywget
+    tags: mywget
