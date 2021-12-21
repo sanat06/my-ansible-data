@@ -1,0 +1,5 @@
+---
+- hosts: myununtuservers
+  become: yes
+  roles:
+  - {role: mynewtom8onubuntu, when: ansible_os_family=="Debian"}
