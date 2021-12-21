@@ -12,7 +12,7 @@
      path: /opt/tomcat/conf
      state: directory 
      rescurse: yes
-     mode: g+r
+     mode:  g+r
 
 
       
@@ -20,7 +20,7 @@
   file:
      path: /opt/tomcat/conf
      state: directory 
-     mode: g+x
+     mode:  g+x
      
 - name: make the tomcat user the owner of the webapps
   file:
