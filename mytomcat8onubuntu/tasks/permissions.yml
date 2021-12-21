@@ -26,7 +26,7 @@
   file:
      path: /opt/tomcat/webapps/
      state: directory 
-     rescurse: yes
+     recurse: yes
      owner: tomcat
      
 
@@ -34,7 +34,7 @@
   file:
     path: /opt/tomcat/works/
     state: directory 
-    rescurse: yes
+    recurse: yes
     owner: tomcat
     
   
@@ -42,7 +42,7 @@
   file:
     path: /opt/tomcat/temp/
     state: directory 
-    rescurse: yes
+    recurse: yes
     owner: tomcat
    
   
@@ -50,7 +50,7 @@
   file:
     path: /opt/tomcat/logs/
     state: directory 
-    rescurse: yes
+    recurse: yes
     owner: tomcat
     
       
