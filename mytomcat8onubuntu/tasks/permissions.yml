@@ -11,7 +11,7 @@
   file:
      path: /opt/tomcat/conf
      state: directory 
-     rescurse: yes
+     recurse: yes
      mode:  g+r
 
 
